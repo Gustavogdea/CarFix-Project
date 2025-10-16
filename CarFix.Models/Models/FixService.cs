@@ -16,7 +16,6 @@ namespace CarFix.Models.Models
             Description = description;
             Price = price;
         }
-
         public int id { get; }
         public string Title { get; set; }
         public string Description { get; set; }
