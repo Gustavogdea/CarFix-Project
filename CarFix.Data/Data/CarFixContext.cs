@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using CarFix.Models.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,11 @@ namespace CarFix.Data.Data;
 public class CarFixContext : DbContext
 {
     private static readonly string _catalog = "CarFixDb";
+
+    public readonly DbSet<User> Users;
+    public readonly DbSet<Vehicle> Vehicles;
+    public readonly DbSet<Quotation> Quotations;
+    public readonly DbSet<FixService> FixServices;
 
     public string connectionString = $"Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog={_catalog};Integrated Security=True;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False";
 

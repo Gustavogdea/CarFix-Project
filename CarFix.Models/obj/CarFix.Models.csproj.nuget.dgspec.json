@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gustavo Almeida\\source\\repos\\CarFix.Models\\CarFix.Models\\CarFix.Models.csproj": {}
+    "C:\\Users\\gustavo.almeida\\Desktop\\CarFix-Project\\CarFix.Models\\CarFix.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gustavo Almeida\\source\\repos\\CarFix.Models\\CarFix.Models\\CarFix.Models.csproj": {
+    "C:\\Users\\gustavo.almeida\\Desktop\\CarFix-Project\\CarFix.Models\\CarFix.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gustavo Almeida\\source\\repos\\CarFix.Models\\CarFix.Models\\CarFix.Models.csproj",
+        "projectUniqueName": "C:\\Users\\gustavo.almeida\\Desktop\\CarFix-Project\\CarFix.Models\\CarFix.Models.csproj",
         "projectName": "CarFix.Models",
-        "projectPath": "C:\\Users\\Gustavo Almeida\\source\\repos\\CarFix.Models\\CarFix.Models\\CarFix.Models.csproj",
-        "packagesPath": "C:\\Users\\Gustavo Almeida\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gustavo Almeida\\source\\repos\\CarFix.Models\\CarFix.Models\\obj\\",
+        "projectPath": "C:\\Users\\gustavo.almeida\\Desktop\\CarFix-Project\\CarFix.Models\\CarFix.Models.csproj",
+        "packagesPath": "C:\\Users\\gustavo.almeida\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gustavo.almeida\\Desktop\\CarFix-Project\\CarFix.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Gustavo Almeida\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gustavo.almeida\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -49,6 +49,24 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.21, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -65,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

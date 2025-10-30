@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CarFix.Models")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb72bc5a62f4eee95880bb125bdd3138c5dcc156")]
 [assembly: System.Reflection.AssemblyProductAttribute("CarFix.Models")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CarFix.Models")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

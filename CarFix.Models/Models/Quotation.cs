@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Reflection.Metadata.Ecma335;
 using System.Text;
@@ -14,12 +15,11 @@ public class Quotation
     {
         Id = id;
         this.services = services;
-        Vehicle = vehicle;
+        VehicleId = vehicle;
     }
-
-    public int Id { get; }
+    [Key] public int Id { get; set; }
     public ICollection<FixService> services { get; set; }
-    public Vehicle Vehicle { get; set; }
+    public Vehicle VehicleId { get; set; }
     public DateTime? StartJob { get; set; }
     public DateTime? EndJob { get; set; }
     public decimal TotalPrice => services.Sum(s => s.Price);

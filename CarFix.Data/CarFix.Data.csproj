@@ -18,4 +18,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CarFix.Models\CarFix.Models.csproj" />
+  </ItemGroup>
+
 </Project>

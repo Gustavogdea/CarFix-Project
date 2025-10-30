@@ -1,0 +1,15 @@
+C:\Users\gustavo.almeida\Desktop\CarFix-Project\CarFix.Models\bin\Debug\net8.0\CarFix.Models.deps.json
+C:\Users\gustavo.almeida\Desktop\CarFix-Project\CarFix.Models\bin\Debug\net8.0\CarFix.Models.runtimeconfig.json
+C:\Users\gustavo.almeida\Desktop\CarFix-Project\CarFix.Models\bin\Debug\net8.0\CarFix.Models.dll
+C:\Users\gustavo.almeida\Desktop\CarFix-Project\CarFix.Models\bin\Debug\net8.0\CarFix.Models.pdb
+C:\Users\gustavo.almeida\Desktop\CarFix-Project\CarFix.Models\obj\Debug\net8.0\CarFix.Models.csproj.AssemblyReference.cache
+C:\Users\gustavo.almeida\Desktop\CarFix-Project\CarFix.Models\obj\Debug\net8.0\CarFix.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gustavo.almeida\Desktop\CarFix-Project\CarFix.Models\obj\Debug\net8.0\CarFix.Models.AssemblyInfoInputs.cache
+C:\Users\gustavo.almeida\Desktop\CarFix-Project\CarFix.Models\obj\Debug\net8.0\CarFix.Models.AssemblyInfo.cs
+C:\Users\gustavo.almeida\Desktop\CarFix-Project\CarFix.Models\obj\Debug\net8.0\CarFix.Models.csproj.CoreCompileInputs.cache
+C:\Users\gustavo.almeida\Desktop\CarFix-Project\CarFix.Models\obj\Debug\net8.0\CarFix.Models.sourcelink.json
+C:\Users\gustavo.almeida\Desktop\CarFix-Project\CarFix.Models\obj\Debug\net8.0\CarFix.Models.dll
+C:\Users\gustavo.almeida\Desktop\CarFix-Project\CarFix.Models\obj\Debug\net8.0\refint\CarFix.Models.dll
+C:\Users\gustavo.almeida\Desktop\CarFix-Project\CarFix.Models\obj\Debug\net8.0\CarFix.Models.pdb
+C:\Users\gustavo.almeida\Desktop\CarFix-Project\CarFix.Models\obj\Debug\net8.0\CarFix.Models.genruntimeconfig.cache
+C:\Users\gustavo.almeida\Desktop\CarFix-Project\CarFix.Models\obj\Debug\net8.0\ref\CarFix.Models.dll

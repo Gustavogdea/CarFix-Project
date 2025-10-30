@@ -1,23 +1,110 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gustavo Almeida\\source\\repos\\CarFix.Models\\CarFix.Data\\CarFix.Data.csproj": {}
+    "C:\\Users\\gustavo.almeida\\Desktop\\CarFix-Project\\CarFix.Data\\CarFix.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gustavo Almeida\\source\\repos\\CarFix.Models\\CarFix.Data\\CarFix.Data.csproj": {
+    "C:\\Users\\gustavo.almeida\\Desktop\\CarFix-Project\\CarFix.Data\\CarFix.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gustavo Almeida\\source\\repos\\CarFix.Models\\CarFix.Data\\CarFix.Data.csproj",
+        "projectUniqueName": "C:\\Users\\gustavo.almeida\\Desktop\\CarFix-Project\\CarFix.Data\\CarFix.Data.csproj",
         "projectName": "CarFix.Data",
-        "projectPath": "C:\\Users\\Gustavo Almeida\\source\\repos\\CarFix.Models\\CarFix.Data\\CarFix.Data.csproj",
-        "packagesPath": "C:\\Users\\Gustavo Almeida\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gustavo Almeida\\source\\repos\\CarFix.Models\\CarFix.Data\\obj\\",
+        "projectPath": "C:\\Users\\gustavo.almeida\\Desktop\\CarFix-Project\\CarFix.Data\\CarFix.Data.csproj",
+        "packagesPath": "C:\\Users\\gustavo.almeida\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gustavo.almeida\\Desktop\\CarFix-Project\\CarFix.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Gustavo Almeida\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gustavo.almeida\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\gustavo.almeida\\Desktop\\CarFix-Project\\CarFix.Models\\CarFix.Models.csproj": {
+                "projectPath": "C:\\Users\\gustavo.almeida\\Desktop\\CarFix-Project\\CarFix.Models\\CarFix.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.21, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\gustavo.almeida\\Desktop\\CarFix-Project\\CarFix.Models\\CarFix.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gustavo.almeida\\Desktop\\CarFix-Project\\CarFix.Models\\CarFix.Models.csproj",
+        "projectName": "CarFix.Models",
+        "projectPath": "C:\\Users\\gustavo.almeida\\Desktop\\CarFix-Project\\CarFix.Models\\CarFix.Models.csproj",
+        "packagesPath": "C:\\Users\\gustavo.almeida\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gustavo.almeida\\Desktop\\CarFix-Project\\CarFix.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gustavo.almeida\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -61,6 +148,8 @@
               "version": "[8.0.21, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.21, )"
             }
@@ -81,7 +170,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

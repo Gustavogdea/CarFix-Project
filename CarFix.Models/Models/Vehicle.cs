@@ -13,16 +13,16 @@ public class Vehicle
     {
         Id = id;
         Placa = placa;
-        User = user;
+        UserId = user;
         Marca = marca;
         Modelo = modelo;
         Ano = ano;
     }
 
-    public int Id { get; }
+    [Key] public int Id { get; set; }
     public string? Placa { get; set; }
     public string Marca { get; set; }
     public string Modelo { get; set; }
-    public User User { get; set; }
+    public User UserId { get; set; }
     public int Ano { get; set; }
 }
